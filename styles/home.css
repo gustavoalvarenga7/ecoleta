@@ -1,0 +1,86 @@
+#page-home{
+    height: 85vh;
+    background: url('../img/publicdomainq-litter.svg') no-repeat;
+    background-position: 50vw bottom;
+    background-size: 500px;
+}
+#page-home header a{
+    display: flex;
+
+    color: var(--title-color);
+    font-weight: 700;
+    
+}
+#page-home header a span{
+    margin-right: 15px;
+    display: flex;    
+    background: url('../img/icon-cadastro.svg' ) no-repeat;    
+    width: 20px;
+    height: 20px;
+    color: #59ac59;  
+}
+#page-home main{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+#page-home main h1{
+    font-size: 48px;
+}
+#page-home header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+#page-home .content{
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#page-home main p{
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+#page-home main a{
+    width: 100%;
+    height: 72px;
+    border-radius: 10px;
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: var(--primary-color);
+    transition: 500ms;
+}
+#page-home main a:hover{
+    background-color: #2fb86e;
+}
+#page-home main a span{
+    width: 72px;
+    height: 72px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page-home main a span::after{
+    content:'';
+    background-image: url('../img/icon-pesquisa.svg');
+    width: 20px;
+    height: 20px;
+
+}
+#page-home main a strong{
+    flex: 1;
+    color: white;
+    text-align: center;
+}
